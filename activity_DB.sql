@@ -23,11 +23,11 @@ CREATE TABLE IF NOT EXISTS products (
 );
 
 INSERT IGNORE INTO products (code, product_name, category, qty, price) VALUES
-('WRT-001', 'Ballpen', 'Writing', 120, 10.00),
-('PPR-001', 'Notebook', 'Paper', 8, 45.00),
-('ART-001', 'Crayons', 'Art', 60, 35.00),
-('BAG-001', 'School bag', 'Bags', 15, 450.00),
-('WRT-002', 'Pencil', 'Writing', 200, 8.00),
-('WRT-003', 'Eraser', 'Writing', 90, 5.00),
-('TLS-001', 'Ruler', 'Tools', 45, 12.00),
-('ART-002', 'Glue', 'Art', 30, 20.00);
+('WRT-001', 'item', 'Writing', 120, 10.00),
+('PPR-001', 'item2', 'Paper', 8, 45.00),
+('ART-001', 'item3', 'Art', 60, 35.00),
+('BAG-001', 'item4', 'Bags', 15, 450.00),
+('WRT-002', 'item5', 'Writing', 200, 8.00),
+('WRT-003', 'item6', 'Writing', 90, 5.00),
+('TLS-001', 'item7', 'Tools', 45, 12.00),
+('ART-002', 'item8', 'Art', 30, 20.00);
